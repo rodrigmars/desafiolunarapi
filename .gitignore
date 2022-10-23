@@ -1,0 +1,10 @@
+# Ignore local virtualenv
+env/
+
+__pycache__/
+
+build/
+dist/
+
+.vscode
+.pytest_cache
