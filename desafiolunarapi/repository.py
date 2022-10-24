@@ -25,7 +25,7 @@ def find_by_id(id):
 
 def get_date_time(now): return now.strftime("%Y-%m-%d %H:%M:%S")
 
-def create_id(data): return data[-1]["id"] + 1,
+def create_id(data): return data[-1]["id"] + 1
 
 def create(data: dict) -> None:
 

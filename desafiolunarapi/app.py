@@ -22,5 +22,5 @@ def create(): rep.create(request.json)
 def edit(id): rep.edit(id, request.json)
 
 
-@app.route("/minerios/<int:id>",  methods=['POST'])
+@app.route("/minerios/<int:id>",  methods=['DELETE'])
 def remove(id): rep.remove(id)
