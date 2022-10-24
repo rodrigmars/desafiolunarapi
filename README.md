@@ -19,7 +19,7 @@ API back-end deve receber as requisições e montar as operações CRUD(Create, 
 2º Passo - Crie e ative o ambiente virtual com o **venv**:
 
     ```bash
-    $ python -m venv env && env/bin/activate
+    $ python -m venv env && source env/bin/activate
 
 3º Passo - Instale as dependências:
 
