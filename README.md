@@ -14,9 +14,13 @@ API back-end deve receber as requisições e montar as operações CRUD como pri
 
 1º Passo - Clone o repositório usando chave SSH:
 
+**Linux**:
+
 ```bash
 git clone git@github.com:rodrigmars/desafiolunarapi.git && cd desafiolunarapi
 ```
+
+**Windows**:
 
 ```cmd
 C:\>git clone git@github.com:rodrigmars/desafiolunarapi.git && cd desafiolunarapi
@@ -24,9 +28,13 @@ C:\>git clone git@github.com:rodrigmars/desafiolunarapi.git && cd desafiolunarap
 
 2º Passo - Crie e ative o ambiente virtual com o **venv**:
 
+**Linux**:
+
 ```bash
 python -m venv env && source env/bin/activate
 ```
+
+**Windows**:
 
 ```cmd
 C:\desafiolunarapi>python -m venv env && env\Scripts\activate.bat
@@ -34,9 +42,13 @@ C:\desafiolunarapi>python -m venv env && env\Scripts\activate.bat
 
 3º Passo - Instale as dependências:
 
+**Linux**:
+
 ```bash
 pip install -r requirements-dev.txt
 ```
+
+**Windows**:
 
 ```cmd
 C:\desafiolunarapi>pip install -r requirements-dev.txt
@@ -44,9 +56,13 @@ C:\desafiolunarapi>pip install -r requirements-dev.txt
 
 4º Passo - Para a execução do projeto, lance a instrução conforme o seu terminal:
 
+**Linux**:
+
 ```bash
 cd desafiolunarapi && flask run
 ```
+
+**Windows**:
 
 ```cmd
 C:\desafiolunarapi>cd desafiolunarapi && flask run
