@@ -1,4 +1,4 @@
-from desafiolunarapi.db import minerios
+from desafiolunarapi.infra.db import minerios
 from datetime import datetime
 
 def all():
