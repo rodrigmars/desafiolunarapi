@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from desafiolunarapi.routes.minerios_route import routes
+from desafiolunarapi.routes.resources_route import routes
 
 app = Flask(__name__)
 
